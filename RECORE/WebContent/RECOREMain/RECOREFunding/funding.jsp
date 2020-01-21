@@ -101,7 +101,14 @@
               <div class="d-flex ml-auto" style = "position:relative; left: 100px;" >
                <form id="search" method="get" action="#" class="d-flex align-items-center ml-auto mr-4">
               	</form>
-              	
+              	<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+              	<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+              	<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+              	<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+              	<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+              	<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+              	<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+              	<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
               	<!-- 로그인 안되어있을 때 -->
               	<c:if test="${empty vo }">
                 <a href="<%=request.getContextPath()%>/RECOREMain/RECOREAccount/Acc_Login.jsp" class="d-flex align-items-center">
