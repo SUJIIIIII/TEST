@@ -95,50 +95,6 @@ $("input[name=passwd_confirm]").blur(function(){
 	}
 });
 
-	$("input[name=mobile3]").blur(function(){
-		var mobile1 = $("select[name=mobile1]").val();
-		var mobile2 = $("input[name=mobile2]").val();
-		var mobile3 = $("input[name=mobile3]").val();
-		var mobile = mobile1+mobile2+mobile3;
-		
-		var mobilecheck = RegExp(/^[0-9]\d{3,4}$/);
-		
-		$.ajax({
-			url : "../../Account_Controller.do?command=phonecheck",
-			
-			data : {
-				"mobile" : mobile
-			},
-					
-			dataType : "json",	
-			
-			success:function(data){	
-				if(mobile3==""){
-					$("#phoneMsg").css("display", "none");
-					$("#phoneMsg2").css("display", "none");
-				} else if(mobile2==""){
-					$("#phoneMsg").css("display", "none");
-					$("#phoneMsg2").css("display", "none");					
-				} else if(data.pres){
-					$("#phoneMsg").css("display", "");
-					$("#phoneMsg2").css("display", "none");
-					$('#mobile3').focus();
-				} else if(!(data.pres)){
-					$("#phoneMsg").css("display", "none");
-					$("#phoneMsg2").css("display", "");			
-				}
-			},
-			error:function(){
-				 alert("에러가 발생했습니다.");""
-			}
-		});
-		
-		if(!mobilecheck.test($('#mobile3').val()) && mobile3!=""){
-			alert("올바른 전화번호 형식을 입력하세요.");
-			$('#mobile3').val($('#mobile3').val().replace(mobile3,""));
-			$('#mobile3').focus();
-		}
-	}); 
 	
  	$("input[name=mobile2]").blur(function(){
 		var mobile1 = $("select[name=mobile1]").val();
@@ -221,6 +177,27 @@ $("input[name=passwd_confirm]").blur(function(){
 		<div id="container">
 			<div id="content" >
 
+				<div class="path">
+					<span>현재 위치</span>
+					<ol style = "position:static;">
+				<div class="path">
+					<span>현재 위치</span>
+					<ol style = "position:static;">
+				<div class="path">
+					<span>현재 위치</span>
+					<ol style = "position:static;">
+				<div class="path">
+					<span>현재 위치</span>
+					<ol style = "position:static;">
+				<div class="path">
+					<span>현재 위치</span>
+					<ol style = "position:static;">
+				<div class="path">
+					<span>현재 위치</span>
+					<ol style = "position:static;">
+				<div class="path">
+					<span>현재 위치</span>
+					<ol style = "position:static;">
 				<div class="path">
 					<span>현재 위치</span>
 					<ol style = "position:static;">
