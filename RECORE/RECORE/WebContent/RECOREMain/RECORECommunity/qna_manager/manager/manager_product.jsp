@@ -11,6 +11,34 @@
 <% String searchsubject = request.getParameter("searchsubject");%>
 <% String keyword = request.getParameter("keyword");
 	if(keyword==null){
+<% String catd = request.getParameter("catd");%>
+<% String searchsubject = request.getParameter("searchsubject");%>
+<% String keyword = request.getParameter("keyword");
+	if(keyword==null){
+<% String catd = request.getParameter("catd");%>
+<% String searchsubject = request.getParameter("searchsubject");%>
+<% String keyword = request.getParameter("keyword");
+	if(keyword==null){
+<% String catd = request.getParameter("catd");%>
+<% String searchsubject = request.getParameter("searchsubject");%>
+<% String keyword = request.getParameter("keyword");
+	if(keyword==null){
+<% String catd = request.getParameter("catd");%>
+<% String searchsubject = request.getParameter("searchsubject");%>
+<% String keyword = request.getParameter("keyword");
+	if(keyword==null){
+<% String catd = request.getParameter("catd");%>
+<% String searchsubject = request.getParameter("searchsubject");%>
+<% String keyword = request.getParameter("keyword");
+	if(keyword==null){
+<% String catd = request.getParameter("catd");%>
+<% String searchsubject = request.getParameter("searchsubject");%>
+<% String keyword = request.getParameter("keyword");
+	if(keyword==null){
+<% String catd = request.getParameter("catd");%>
+<% String searchsubject = request.getParameter("searchsubject");%>
+<% String keyword = request.getParameter("keyword");
+	if(keyword==null){
 		keyword="";
 	}
 %>
@@ -47,6 +75,78 @@ var keyword = '<%=keyword%>';
 <body id="body">
 	<header>
 		<jsp:include page="/header.jsp"></jsp:include>
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
+	</header>
+	<section style="margin: 100px 0 100px 0px;">
+		<section class="section-container">
+			<div class="row" style="width:100%;">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="xans-element- xans-board xans-board-listpackage-1002 xans-board-listpackage xans-board-1002 ">
+						<div class="xans-element- xans-board xans-board-search-1002 xans-board-search xans-board-1002" style="padding: 0px;">
 	</header>
 	<section style="margin: 100px 0 100px 0px;">
 		<section class="section-container">
