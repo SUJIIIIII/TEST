@@ -19,6 +19,30 @@
             </ul>
          </div>
          <div class="footermain" style="font-size: 14px; margin-top: 20px;">
+               <li><a href="#">브랜드소개</a></li>
+               <li><a href="#">이용안내</a></li>
+               <li><a href="#">이용약관</a></li>
+               <li><a href="#"><b>개인정보처리방침</b></a></li>
+               <li><a href="#">FAQ</a></li>
+            </ul>
+         </div>
+         <div class="footermain" style="font-size: 14px; margin-top: 20px;">
+               <li><a href="#">브랜드소개</a></li>
+               <li><a href="#">이용안내</a></li>
+               <li><a href="#">이용약관</a></li>
+               <li><a href="#"><b>개인정보처리방침</b></a></li>
+               <li><a href="#">FAQ</a></li>
+            </ul>
+         </div>
+         <div class="footermain" style="font-size: 14px; margin-top: 20px;">
+               <li><a href="#">브랜드소개</a></li>
+               <li><a href="#">이용안내</a></li>
+               <li><a href="#">이용약관</a></li>
+               <li><a href="#"><b>개인정보처리방침</b></a></li>
+               <li><a href="#">FAQ</a></li>
+            </ul>
+         </div>
+         <div class="footermain" style="font-size: 14px; margin-top: 20px;">
             <ol>
                   <li>회사명 : (주)RECORE</li>
                   <li>주소 : 06141 서울특별시 강남구 테헤란로 201 (역삼동) 남도빌딩 4층</li>

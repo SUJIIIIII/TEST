@@ -27,6 +27,32 @@
         <br>
         <div style = "text-align: center;"><a href = "<%=request.getContextPath()%>/RECOREMain/index.html">
         <img alt="" src = "<%=request.getContextPath()%>/images/logo2.png"></a></div>
+        </div>
+      </div>
+      
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+ 	 <div class="site-navbar-wrap" style="position: static; background-color: #A0D9D9;">
+      <div class="site-navbar-top">
+        <div class="container py-3">
+        
+           <!-- @@@로고 위치 @@@-->
+        <br>
+        <div style = "text-align: center;"><a href = "<%=request.getContextPath()%>/RECOREMain/index.html">
+        <img alt="" src = "<%=request.getContextPath()%>/images/logo2.png"></a></div>
+        </div>
+      </div>
+      
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+ 	 <div class="site-navbar-wrap" style="position: static; background-color: #A0D9D9;">
+      <div class="site-navbar-top">
+        <div class="container py-3">
+        
+           <!-- @@@로고 위치 @@@-->
+        <br>
+        <div style = "text-align: center;"><a href = "<%=request.getContextPath()%>/RECOREMain/index.html">
+        <img alt="" src = "<%=request.getContextPath()%>/images/logo2.png"></a></div>
         
           <div class="row align-items-center">
             <div class="col-6">

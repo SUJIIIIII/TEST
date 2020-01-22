@@ -8,6 +8,9 @@ public class Vo_Category_Detail {
 	private String catd_yn; // 현재사용여부
 	private String catd_note; // 주석
 	private String catd_note2; // 주석
+	private String catd_note2; // 주석
+	private String catd_note2; // 주석
+	private String catd_note2; // 주석
 
 	public Vo_Category_Detail() {
 		super();
