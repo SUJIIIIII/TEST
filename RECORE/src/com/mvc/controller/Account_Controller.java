@@ -83,6 +83,34 @@ public class Account_Controller extends HttpServlet {
 				jsResponse("회원이 탈퇴 되었습니다.", "./RECOREMain/index.html", response);
 				session.invalidate();
 			} else {
+				Vo_Account vo = (Vo_Account) session.getAttribute("vo");
+				boolean res = false;
+				res = dao.A_delete(vo.getAcc_no());
+				if (res) {
+					jsResponse("회원이 탈퇴 되었습니다.", "./RECOREMain/index.html", response);
+					session.invalidate();
+				} else {
+					Vo_Account vo = (Vo_Account) session.getAttribute("vo");
+					boolean res = false;
+					res = dao.A_delete(vo.getAcc_no());
+					if (res) {
+						jsResponse("회원이 탈퇴 되었습니다.", "./RECOREMain/index.html", response);
+						session.invalidate();
+					} else {
+						Vo_Account vo = (Vo_Account) session.getAttribute("vo");
+						boolean res = false;
+						res = dao.A_delete(vo.getAcc_no());
+						if (res) {
+							jsResponse("회원이 탈퇴 되었습니다.", "./RECOREMain/index.html", response);
+							session.invalidate();
+						} else {
+							Vo_Account vo = (Vo_Account) session.getAttribute("vo");
+							boolean res = false;
+							res = dao.A_delete(vo.getAcc_no());
+							if (res) {
+								jsResponse("회원이 탈퇴 되었습니다.", "./RECOREMain/index.html", response);
+								session.invalidate();
+							} else {
 
 			}
 
