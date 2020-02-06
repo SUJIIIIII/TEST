@@ -17,9 +17,7 @@
 
 <c:url var="action" value="manager.do"/>
 	<div id="arrow_2" class="xans-element- xans-board xans-board-paging-1002 xans-board-paging xans-board-1002 ec-base-paginate arrow-wrapper">
-ggggggggggggggggggggggggggg
-hggggggggggggggggggggggggggg
-hgggggggggggggggggggggggggggg
+
 	<c:choose>
 		<c:when test="${param.prev}">
 			<div class="arrow arrow--left">
